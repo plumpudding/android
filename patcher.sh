@@ -1,9 +1,6 @@
 cd frameworks/base
 git fetch https://github.com/G5Devs/android_frameworks_base/ cm-13.0
 git cherry-pick ffd7727c9623716d0e99879c45284e2cf47ab7ce
-cd ../native
-git fetch https://github.com/G5Devs/android_frameworks_native/ cm-13.0
-git cherry-pick bb8aa5794f631e4cd4eec3f51522c828f7fcba10
 cd ../../build
 git fetch https://github.com/G5Devs/android_build/ cm-13.0
 git cherry-pick 1f68c952505ca69f49f8bc98e7da25695a20e49b
